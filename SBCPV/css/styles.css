@@ -1,0 +1,151 @@
+/* Main variables */
+:root{
+    --bgcolor: #1B1D35;
+    --bgccolor: #fff;
+}
+
+
+/* Main breakpoints */
+
+body {
+    /*background-color: #331031;*/
+    background-color: rgba(0,125,204,.15);
+}
+
+
+
+h1 {
+    color:#B8287A;
+    text-align: center;
+}
+
+h5{
+    text-align: right;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+
+
+label{
+    text-align: left !important;
+    color: black;
+    font-weight: bold;
+}
+
+/* Other breakpoints*/
+/*.login {
+    background-color: #EBEBEB;
+    font-family: 'Harlow Solid Italic';
+    font-style: oblique;
+    text-align: center;
+    border-style:solid;
+    border-color:  #B8711B;
+    box-shadow: rgba(0,125,204,.95) 2px 1px 1px 1px;
+    border-left-style: none;
+    border-top-style: none;
+    
+ }*/
+
+.login {
+    align-items: left !important;
+   
+}
+
+.alignlabel{
+    text-align: left !important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+
+
+.tittle{
+    font-family: fantasy;
+    font-style: normal;
+    color: var(--bgccolor);
+}
+
+
+.doradito {
+    text-align: center;
+    background-image: url("../images/sbc.png");
+    background-color: rgba(0,125,204,.15);
+    width: 70%;
+    right: 0px;
+    top: 5px;
+    height: 739px;
+    display: block;
+    position: absolute;
+    z-index: 1;
+  
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%);
+}
+
+
+.azul{
+    /*background: rgba(0,125,204,1);*/
+    background-color: #B8287A;
+    width: 80%;
+    height: 50px;
+    display: block;
+    position: absolute;
+    z-index: 2;
+    color: var(--bgccolor);
+    font-family: fantasy;
+    -webkit-clip-path: polygon(0 0, 96% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0, 96% 0, 100% 100%, 0% 100%);
+}
+
+.t2 {
+    color: var(--bgccolor);
+    font-family: fantasy;
+    text-align: center;
+}
+.dorado {
+   /* background: rgb(212,176,18);*/
+    background: rgba(0,125,204,1);
+    width: 35%;
+    right: 0px;
+    height: 65px;
+    color: var(--bgccolor);
+    display: block;
+    position: absolute;
+    z-index: 1;
+  
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%);
+}
+
+.btnlogin {
+    background-color: #B8287A !important;
+    box-shadow: 0 5px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    color: #fff;
+}
+
+.btnlogin:hover {
+    background-color: #8A1E5B !important;
+}
+
+.btnlogin:visited{
+    color: var(--bgccolor) !important;
+}
+
+.fpass{
+
+    font-size: small;
+    text-align: center !important;
+    text-decoration: underline !important;
+    color: var(--bgcolor) !important;
+    cursor: pointer;
+
+}
+
+
+
+
+
+@media (min-width: 576px) {  }
+@media (min-width: 768px) {  }
+@media (min-width: 992px) {  }
+@media (min-width: 1200px) {  }
+@media (min-width: 1400px) {  }

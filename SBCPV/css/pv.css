@@ -1,0 +1,161 @@
+
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: red  !important;
+}
+option.valor, select {
+    font-size: smaller !important;
+}
+p.encabezados{
+    text-align: center  !important;
+    font-weight: bold;
+    color: #ffce80;
+}
+
+p.encabezados::after{
+    color: red !important;
+}
+
+a.color{
+color: #ffce80!important;
+font-weight: bolder;
+}
+a.color::first-line, a.color2::first-line, a.color3::first-line{
+    text-transform: uppercase;
+}
+a.color2{
+    color: #ffce80 !important;
+}
+a.color3{
+    color: #ffce80 !important;
+}
+
+.text, .navbar-brand{
+    font-size: small !important;
+}
+.navbar{
+    background: #071731 !important;
+    /* #071731*/
+}
+.navbar-brand{
+    font-weight: bolder !important;
+    color: #fff !important;
+
+}
+
+.input-control{
+    font-size: 10px !important;
+}
+
+
+
+a {
+    color: #fff !important;
+}
+a.menu-item{
+    color: black !important;
+    font-size: smaller !important;
+}
+
+.control-clientes{
+    top: -10px;
+    border: 2px;
+    border-style: groove;
+    border-radius: 10px;
+    background-color: #071731!important;
+    height: 30px;
+
+}
+
+label, .form-select{
+    font-size: 14px !important;
+    font-weight: bold;
+    color: #fff;
+}
+
+body {
+    /*background-color: #82A9CC;*/
+    background-color: #fffaf2;
+    min-width: 100%;
+    font-family: 'Roboto';
+}
+
+/*Ocultar el scrollbarmientrasajusto la pantalla*/
+body::-webkit-scrollbar {
+    /* solo oculta su visualizacion */
+    display: none;
+    font-family: 'Roboto', sans-serif  !important;
+
+  }
+
+a.menu-item:hover{
+    background-color: #113878!important;
+    color: #fff !important;
+}
+div.ticket{
+    left: 10px !important;
+}
+div.ticket2{
+    left: -60px !important;
+}
+.ticket-visual{
+    background-color: #fff !important;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 300px;
+    width: 500px;
+}
+
+.tabla-registros-venta{
+    background-color: #fff !important;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 120px;
+    width: 500px;
+}
+
+.tabla{
+
+        border: 1px solid black;
+        border-collapse: collapse;
+        width: 100%;
+}
+
+td, th {
+    padding: 10px;
+}
+th {
+    text-align: left;
+}
+
+.my-custom-scrollbar {
+    position: relative;
+    overflow: auto;
+    }
+    .table-wrapper-scroll-y {
+    display: block;
+    }
+
+.ticket-visual3{
+    background-color: #fff !important;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 120px;
+    width: 280px;
+}
+
+
+
+
+
+@media (min-width: 576px) {  }
+@media (min-width: 768px) {  }
+@media (min-width: 992px) {  }
+@media (min-width: 1200px) {  }
+@media (min-width: 1400px) {  }

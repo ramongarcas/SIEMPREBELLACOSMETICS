@@ -1,0 +1,8 @@
+body {
+    background-color: #fff !important;
+}
+
+.menu, .container{
+    background-color: rgba(0,125,204,.15) !important;
+    position:fixed;
+}
